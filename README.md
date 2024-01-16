@@ -19,4 +19,14 @@
 8) Создать пустой репозиторий на Github
 9) Склонировать созданный репозиторий себе на локальную машину командой `git remote add origin https://github.com/MDN78/qa_guru_python_10_3.git`
 10) Запушить свой код в репозиторий командой `git push --set-upstream origin master` - это когда первый раз
+11) Другой вариант команды для первого пуша -  `git push -u origin master`
+
+## Генерация и клонирование ключа 
+1) В командной строке введите следующее: `ssh-keygen -t ed25519 -C "ваш email"` и нажмите Enter
+2) На вопрос Enter `file in which to save the key:` нажмите Enter
+3) На вопрос Enter `passphrase (empty for no passphrase):` нажмите Enter
+4) На вопрос Enter `same passphrase again:` нажмите Enter
+5) Набираем в терминале `cd .ssh` нажимаем Enter
+6) Набираем в терминале `notepad id_ed25519.pub` нажимаем Enter открывается блокнот с вашим SSH ключом выделяем всю строку и копируем (Правой кнопкой мыши - копировать)
+
 
